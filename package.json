@@ -1,0 +1,20 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "pokedex game",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "start": "node index"
+  },
+  "author": "daffaarravi",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

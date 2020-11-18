@@ -1,0 +1,128 @@
+/* Jumbotron */
+.Jumbotron {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #444444;
+}
+.Jumbotron h1 {   
+    font-size: 4em;
+}
+
+/* Custom List */
+.customList {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    height: 35px; 
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  3px 3px 6px #d9d9d9, 
+                -3px -3px 6px #ffffff;
+    color: #444444;
+    letter-spacing: 1px;
+}
+.customList:hover{
+    cursor: pointer;
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    box-shadow:  3px 3px 6px #d9d9d9, 
+                -3px -3px 6px #ffffff;
+}
+.customList li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.customList button {
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(145deg, #f25656, #cb4848);
+    box-shadow:  1px 1px 2px #c04444, 
+                -1px -1px 2px #ff5c5c;
+    color: #f0f0f0;
+}
+.customList button:hover {
+    cursor: pointer;
+}
+.customListLeft {
+    float: left;
+}
+.customListRight {
+    float: right;
+}
+
+/* Custom Headbar */
+.customHeadbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  3px 3px 6px #d9d9d9, 
+                -3px -3px 6px #ffffff;
+    color: #444444;
+    letter-spacing: 1px;
+}
+
+/* Custom Segment Details */
+.customSegment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  3px 3px 6px #d9d9d9, 
+                -3px -3px 6px #ffffff;
+    color: #444444;
+    letter-spacing: 1px;
+}
+.customSegmentImg {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  3px 3px 6px #d9d9d9, 
+             -3px -3px 6px #ffffff;
+}
+.customSegmentDetails {
+    margin-left: 50px;
+}
+.customSegmentDetails h1 {
+    font-size: 2em;
+}
+.customSegmentLeft {
+    float: left;
+}
+.customSegmentRight {
+    float: right;
+}
+
+.customLightBox {
+    padding-top: 40px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 25px 25px 50px #d9d9d9, 
+                -25px -25px 50px #ffffff;
+    color: #444444;
+}
+
+.customLightBox h1 {
+    text-align: center;
+}
+.customLightBox input {
+    margin: 20px auto;
+    display: block;
+}
+.customLightBox button {
+    margin: 20px auto;
+    display: block;
+}
